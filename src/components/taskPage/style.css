@@ -1,0 +1,42 @@
+.task-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* background-color: red; */
+  }
+  .status-filter{
+    /* background-color: red; */
+    margin: 10px 0px;
+  }
+  .sort-by{
+    margin: 20px 0px;
+  }
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .task-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: move;
+  }
+  
+  .task-container > div {
+    flex: 1;
+  }
+  
+  .task-container input {
+    cursor: pointer;
+  }
+  
+  
